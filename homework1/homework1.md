@@ -6,8 +6,8 @@ like, if there was no software on a central server.
 
 How would you solve the problems of:
 
-*   cheating.
-*   ensuring agreement about the state of the system.  
-*   communication problems (timeouts).  
-*   how to decide who should take the next turn.  
-*   how to allow the correct people to join the game
+1.  cheating.
+2.  ensuring agreement about the state of the system.  
+3.  communication problems (timeouts).  
+4.  how to decide who should take the next turn.  
+5.  how to allow the correct people to join the game.
