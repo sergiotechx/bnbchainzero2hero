@@ -1,4 +1,4 @@
-*ABI CODE**
+**ABI CODE**
 
 It is a public json representation of our public “methods” of the contract and enable  the possibility to use the contract by another app( mobile, web, desktop…)
 
@@ -23,10 +23,10 @@ _**// Function parameter:** type = uint256 ,name_  =num    
         "type": "function"  
     },  
     {  
-_**// Function parameter:** no input parameter  _        
+**// Function parameter:** no input parameter  _        
 
 "inputs": \[\],  
-  _**//Function :**name =retrieve_
+**//Function :**name =retrieve_
 
 "name": "retrieve",
 
