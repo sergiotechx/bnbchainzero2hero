@@ -3,7 +3,7 @@
 
 **Cheating:**
 
-The game can be set in public through smartcontracts, the rules are public. The blockchain guaranties the transparency and player movements ts .
+The game can be set in public through smartcontracts, the rules are public. The blockchain guaranties the transparency and player movements.
 
 **Ensuring agreement about the state of the system:**
 
