@@ -7,7 +7,7 @@ The game can be set in public through smartcontracts, the rules are public. The 
 
 **Ensuring agreement about the state of the system:**
 
-This is the beauty of blockchain, with an EVM or alternative virtual machine we have a set of tools to ensure the right state of the system**.**
+This is the beauty of blockchain, with an EVM or alternative virtual machine we have a set of tools to ensure the right state of the system.
 
 **Communication problems (timeouts):**
 
