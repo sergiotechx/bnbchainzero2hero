@@ -8,7 +8,7 @@ deployed.
 1\. Address 0x000000000000000000000000000000000000dEaD if called by  
 the deployer  
 2\. The deployer's address otherwise
-´´´solidity
+```solidity
 // SPDX-License-Identifier: None
 
 pragma solidity 0.8.17;
@@ -42,6 +42,7 @@ contract BootcampContract {
        }
      }
 }
+```
 
 ---
 
