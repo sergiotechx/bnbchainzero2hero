@@ -89,3 +89,76 @@ Payment that stores the transfer amount and the recipient's address.
 19\. We want to have a payments array for each user sending the payment.  
 Create a mapping which returns an array of Payment structs when given this  
 user's address.
+```solidity
+// SPDX-License-Identifier:UNLICENSED
+pragma solidity ^0.8.18;
+contract DogCoin{
+    address owner;
+    uint256 decimals = 1000000000000000000;
+    uint256 totalSupply ;
+    string name;
+    string symbol;
+    mapping (address=>uint256) balances;
+    mapping (address=>Payment[]) transferHistory;
+    
+    struct Payment{
+        uint256 amount;
+        address recipient;
+    }
+    
+    constructor (){
+        name ="DogCoin";
+        symbol="DG";
+        _mint(2000000);
+        owner = msg.sender;
+        balances[owner] = getTotalSupply();
+    }
+
+    event TotalSupplyModification(uint256);
+    event TransferDone(Payment);
+
+    modifier onlyOwner {
+      require(msg.sender == owner,"not owner attempt operation");
+      _;
+    }
+    
+    modifier enoughBalance(uint256 qty){
+        uint256 tempQty = qty  * decimals;
+        require( balances[msg.sender] >= tempQty,"insufficient balance");
+         _;
+    }
+    
+    function getTotalSupply() public view returns( uint256){
+        return totalSupply;
+    }
+    
+    function _mint(uint256 qty) internal{
+         totalSupply += qty * decimals ;
+        emit TotalSupplyModification(totalSupply);
+    }
+    function add1000ToTotalSupply() public onlyOwner{ 
+        
+        _mint(1000);
+    }
+    
+    function changeTotalSupply(uint256 newTotalSupply) public onlyOwner{
+        totalSupply = newTotalSupply * decimals ;
+         emit TotalSupplyModification(totalSupply);
+    }
+    
+    function getBalance(address wallet) public view returns(uint256){
+        return (balances[wallet]);
+    }
+   
+    function transfer(uint256 amount, address to) public enoughBalance(amount){
+        balances[msg.sender]-= amount *decimals;
+        balances[to]+= amount  *decimals;
+        transferHistory[msg.sender].push(Payment(amount *decimals,to));
+        emit TransferDone(Payment(amount  *decimals,to));
+    }
+    
+    function getTransferHistory(address  recipient) public view  returns (Payment[] memory){
+         return transferHistory[recipient];
+    }
+}
+```
