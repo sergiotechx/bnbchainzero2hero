@@ -164,9 +164,9 @@ contract DogCoin{
 ```
 ---
 
-**Same but different, time to real FUN!**
-ERC20 token, using openzeppelin :), if you want you can create your pet coin with this code.
-No pets were damaged during smart contract creation or testing process!
+**Same but different, time to real FUN! 😎**  
+ERC20 token, using openzeppelin :), if you want you can create your pet coin with this code.  
+No pets were damaged during smart contract creation or testing process! 😺🐶!
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
