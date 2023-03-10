@@ -1,4 +1,4 @@
-*Homework 4**  
+**Homework 4**  
 **Solidity**  
 [To this contract](https://gist.github.com/extropyCoder/77487267da199320fb9c852cfde70fb1)  
 1\. Add a variable to hold the address of the deployer of the contract  
