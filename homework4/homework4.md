@@ -162,3 +162,45 @@ contract DogCoin{
     }
 }
 ```
+---
+
+**Same but different, time to real FUN!**
+ERC20 token, using openzeppelin :), if you want you can create your pet coin with this code.
+No pets were damaged during smart contract creation or testing process!
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.18;
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract RealDogCoin is ERC20, Ownable {
+
+   struct Payment  {
+        uint256 transferAmount;
+        address recipientAddress;
+    }
+ 
+    mapping(address => Payment[])  Payments;
+    
+    constructor() ERC20("RealDogCoin", "DOG") {
+        _mint(msg.sender, 2000000 * 10 ** decimals());
+        
+    }
+
+    function mint1000( ) public onlyOwner {
+        _mint(msg.sender, 1000 * 10 ** decimals());
+    }
+    
+    function getPayments(address  origin) public  view returns( Payment[] memory) {
+       return(Payments[origin]);
+    }
+    
+    function _afterTokenTransfer(address from, address to, uint256 amount)  internal virtual override
+    {
+        super._afterTokenTransfer(from, to, amount);
+        Payments[from].push(Payment(amount, to));
+        emit Transfer(from, to, amount);
+    }
+}
+
+```
