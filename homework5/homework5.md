@@ -9,6 +9,7 @@ Initial supply : 1000000 tokens 
 
 Deploy this to a test network and exchange some with your colleagues. 
 You may inherit from Open Zeppelin contracts.
+```solidity
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
@@ -23,3 +24,4 @@ contract BadgerCoin is ERC20 {
         return 18; // explicit decimal definition
     }
 }
+```
