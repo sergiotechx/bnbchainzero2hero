@@ -1,15 +1,16 @@
-**Homework 5** 
+**Homework 5**
 
-Badger coin contract 1.
-Create an BEP20 contract with the following details :
-Name : "BadgerCoin" 
-Symbol : "BC" 
-Decimals : 18 
+Badger coin contract 1.  
+Create an BEP20 contract with the following details :  
+Name : "BadgerCoin"   
+Symbol : "BC"   
+Decimals : 18   
 Initial supply : 1000000 tokens 
 
-Deploy this to a test network and exchange some with your colleagues. 
+Deploy this to a test network and exchange some with your colleagues.   
 You may inherit from Open Zeppelin contracts.
-```solidity
+
+```plaintext
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
@@ -26,6 +27,17 @@ contract BadgerCoin is ERC20 {
 }
 ```
 
-deployed contract: 0x8dA3de6C22AbF6e626ba8F33a085393880Bd739d
+**Deployed contract**: 0x8dA3de6C22AbF6e626ba8F33a085393880Bd739d
 
-Verification
+**Verification:**
+
+**Explorer:**
+
+![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework5/explorer.PNG?raw=true)  
+
+**Read Operation:**  
+![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework5/Reading.PNG?raw=true)
+
+**Write operation:**  
+![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework5/Write1.PNG?raw=true)  
+![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework5/Write2.PNG?raw=true)
