@@ -26,4 +26,4 @@ contract BadgerCoin is ERC20 {
 }
 ```
 
-deployed contract: 0xfF23e92C928D70742ebF6c1A22A9F252f8927609
+deployed contract: 0x8dA3de6C22AbF6e626ba8F33a085393880Bd739d
