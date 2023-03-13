@@ -31,6 +31,13 @@ contract BadgerCoin is ERC20 {
 
 **Verification:**
 
+/1. Take one of the contracts you created in the previous homework and
+deploy it to BSC test net.
+/2. Find your deployed contract on the block explorer
+/3. Verify your contract, using verify and publish
+/4. Interact with your contract using the 'Read Contract' and 'Write
+Contract' tab
+
 **Explorer:**
 
 ![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework5/explorer.PNG?raw=true)  
