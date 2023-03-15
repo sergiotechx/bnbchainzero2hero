@@ -3,10 +3,10 @@
 It is a public json representation of our public “methods” of the contract and enable  the possibility to use the contract by another app( mobile, web, desktop…)
 
 In general is a get set contract around the _number_ state variable ( private) and how  access it with public methods. 
-```json
+
 [  
     {  
-/* Function parameter: type = uint256 ,name_  =num */    
+**// Function parameter:** type = uint256 ,name_  =num
 
 "inputs": \[  
             {  
@@ -44,4 +44,4 @@ In general is a get set contract around the _number_ state variable ( private) a
         "type": "function"  
     }  
 \]
-```
+
