@@ -6,7 +6,7 @@ In general is a get set contract around the _number_ state variable ( private) a
 ```json
 [  
     {  
-// Function parameter:** type = uint256 ,name_  =num    
+/* Function parameter: type = uint256 ,name_  =num */    
 
 "inputs": \[  
             {  
