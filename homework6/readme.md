@@ -37,8 +37,8 @@ contract BadgerNFT is ERC721, ERC721URIStorage, Ownable {
           }
   
           function mint(address \_to,uint256 \_tokenId,string calldata \_uri) public onlyOwner {
-                  _mint(\_to, \_tokenId);
-                  _setTokenURI(\_tokenId, \_uri);
+                  _mint(\_to, _tokenId);
+                  _setTokenURI(_tokenId, _uri);
            }
 
 }
