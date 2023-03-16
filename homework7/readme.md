@@ -48,3 +48,10 @@ contract BadLotteryGame {
     }
 }
 ```
+**Observations**
+1. 0.8.4  version is out dated.
+2. Constructor wihout implementation.
+3. addNewPlayer function without access control or roles.
+4. pickWinner function is extremely posible to hack!, there is not a real random number.
+5. payout function is very sensitive without access control or roles.
+6. distributePrize function is very sensitive without access control or roles.
