@@ -45,11 +45,9 @@ contract BadgerNFT is ERC721, ERC721URIStorage, Ownable {
 ```
 **commands:** 
 
-npx hardhat compile
-
-npx hardhat test
-
-npx hardhat run --network bnbTestnet .\\scripts\\deploy.js 
+*  npx hardhat compile
+*  npx hardhat test
+*  npx hardhat run --network bnbTestnet .\\scripts\\deploy.js 
 
 **Deployed contract at:** 0x64502B1ABad91ceafb99280E1e973489C1aF1aCc
 
