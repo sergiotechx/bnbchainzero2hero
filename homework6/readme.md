@@ -49,11 +49,14 @@ contract BadgerNFT is ERC721, ERC721URIStorage, Ownable {
 *  npx hardhat test
 *  npx hardhat run --network bnbTestnet .\\scripts\\deploy.js 
 
+![image](https://user-images.githubusercontent.com/64911708/225494762-5ecc021c-cf93-4d96-80b3-0b4285d51e9f.png)
+
+
 **Deployed contract at:** 0x64502B1ABad91ceafb99280E1e973489C1aF1aCc
 
 **NFT Metadata**  
-![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework6/metadata.PNG?raw=true)
+![image](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework6/metadata.PNG?raw=true)
 
 **The result!**
 
-![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework6/BunnyRules.PNG?raw=true)
+![image](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework6/BunnyRules.PNG?raw=true)
