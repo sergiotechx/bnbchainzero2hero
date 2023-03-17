@@ -41,3 +41,4 @@ contract Badger is ERC20 {
 **Test command**
 
 npx hardhat test
+![image](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework6/BunnyRules.PNG?raw=true)
