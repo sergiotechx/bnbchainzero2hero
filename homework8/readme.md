@@ -20,4 +20,23 @@ For help with the syntax for unit tests see
 
 **Hardhat:** [https://hardhat.org/guides/waffle-testing.html](https://hardhat.org/guides/waffle-testing.html)  
 **Foundry :** [https://book.getfoundry.sh/forge/tests](https://book.getfoundry.sh/forge/tests)  
-**Truffle :** [https://trufflesuite.com/docs/truffle/testing/writing-tests-injavascript.html](https://trufflesuite.com/docs/truffle/testing/writing-tests-injavascript.htm)
+**Truffle :** [https://trufflesuite.com/docs/truffle/testing/writing-tests-injavascript.html](https://trufflesuite.com/docs/truffle/testing/writing-tests-injavascript.htm
+
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract Badger is ERC20 {
+    constructor() ERC20("Badger", "BAD") {
+        _mint(msg.sender, 1000000 * 10 ** decimals());
+    }
+    function decimals() override public pure returns (uint8) {
+        return 18; // explicit decimal definition
+    }
+}
+
+test command
+
+npx hardhat test
