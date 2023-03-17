@@ -21,7 +21,7 @@ For help with the syntax for unit tests see
 **Hardhat:** [https://hardhat.org/guides/waffle-testing.html](https://hardhat.org/guides/waffle-testing.html)  
 **Foundry :** [https://book.getfoundry.sh/forge/tests](https://book.getfoundry.sh/forge/tests)  
 **Truffle :** [https://trufflesuite.com/docs/truffle/testing/writing-tests-injavascript.html](https://trufflesuite.com/docs/truffle/testing/writing-tests-injavascript.htm
-
+```solidity
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
@@ -37,6 +37,7 @@ contract Badger is ERC20 {
     }
 }
 
-test command
+```
+**Test command**
 
 npx hardhat test
