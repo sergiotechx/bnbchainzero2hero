@@ -76,3 +76,4 @@ ethersPlayGround();
 
 **How to run:**
 node index
+![image](https://raw.githubusercontent.com/sergiotechx/bnbchainzero2hero/main/homework8/Capture.PNG)
