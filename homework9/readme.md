@@ -7,28 +7,18 @@ Using the code in this repo as a guide
 
 pragma solidity ^0.8.19;
 
-  
- 
-
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-  
- 
-
-contract Badger is ERC20 {
+ contract Badger is ERC20 {
 
     constructor() ERC20("Badger", "BAD") {
-
-        \_mint(msg.sender, 1000000 \* 10 \*\* decimals());
-
+        _mint(msg.sender, 1000000 \* 10 \*\* decimals());
     }
 
     function decimals() override public pure returns (uint8) {
 
         return 18; // explicit decimal definition
-
     }
-
 }
 ```
   
