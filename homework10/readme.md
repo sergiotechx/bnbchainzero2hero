@@ -48,3 +48,5 @@ contract Dog is ERC20, Ownable {
     }
 }
 ````
+
+![image](https://raw.githubusercontent.com/sergiotechx/bnbchainzero2hero/main/homework9/operations.PNG)
