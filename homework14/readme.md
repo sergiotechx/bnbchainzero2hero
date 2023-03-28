@@ -10,7 +10,7 @@
 
 [Homework6](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework6)
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/5d0c45742c20ba1d194142d1402d1d373af790b1aea971e0.png)
+![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/2d438f9e706d73d758934042dfb51e966f6da9eda6056d9b.png)
 
 **Another extra stuff to enjoy**   
 Bunny song ipfs://bafybeibjxflh64yn2575m4ws7mdlerqrjfogaxtmfkdv4fsfn2qotxghh4  
