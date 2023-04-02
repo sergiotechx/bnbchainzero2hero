@@ -40,6 +40,7 @@ Download the windows archive
 Unpack in some directory
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/68610ca4f866ba60f783454fde7f1868e6d1da29148124e2.png)
+![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework11/2.png)
 
 Add the path into the environment
 
