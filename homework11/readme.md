@@ -55,7 +55,6 @@ cd myfisrtone
 
 open visualstudio code
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/08eab32df9277449f219695e103129f9530cb546d4c8310b.png)
 ![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework11/5.png)
 
 Run forge build
