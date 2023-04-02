@@ -66,6 +66,7 @@ Run forge build
 For testing
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/9b814d19475dbdd0cf3aff32e63c2c347efeecf0a6840d56.png)
+![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework11/7.png)
 
 
 Import for testing:   _import "forge-std/Test.sol";_
