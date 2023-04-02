@@ -43,7 +43,6 @@ Unpack in some directory
 
 Add the path into the environment
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/00cd55c052acf05404bf46323343fbeed6a418b5aa069fde.png)
 ![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework11/3.png)
 
 Go to a selected path and open the terminal
