@@ -70,11 +70,12 @@ Import for testing:   _import "forge-std/Test.sol";_
 
 import your contract _import "../src/Counter.sol";_
 
-_Instead contrsuctor you must to create the setUp( ) function_
+Instead contrsuctor you must to create the setUp( ) function_
 
-_each test function must have the prefix “test”_
+each test function must have the prefix “test”_
 
-_To run the test_
+To run the test_
 
-_Run “forge test”_
+Run “forge test”
+
 ![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework11/8.PNG)
