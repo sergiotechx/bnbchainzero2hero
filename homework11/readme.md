@@ -44,26 +44,31 @@ Unpack in some directory
 Add the path into the environment
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/00cd55c052acf05404bf46323343fbeed6a418b5aa069fde.png)
+![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework11/3.png)
 
 Go to a selected path and open the terminal
 
 run “forge init _project-name_”
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/22d07578bcfaf6179079b4fe197ee01a52668a2380d94478.png)
+![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework11/4.png)
 
 cd myfisrtone
 
 open visualstudio code
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/08eab32df9277449f219695e103129f9530cb546d4c8310b.png)
+![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework11/5.png)
 
 Run forge build
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/40dbe11306d5e8140e9e5c62b5054bf14d5fb8bcbe3ba41d.png)
+![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework11/6.png)
 
 For testing
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/9b814d19475dbdd0cf3aff32e63c2c347efeecf0a6840d56.png)
+![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework11/7.png)
 
 Import for testing:   _import "forge-std/Test.sol";_
 
