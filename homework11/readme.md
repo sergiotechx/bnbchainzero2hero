@@ -60,12 +60,10 @@ open visualstudio code
 
 Run forge build
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/40dbe11306d5e8140e9e5c62b5054bf14d5fb8bcbe3ba41d.png)
 ![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework11/6.png)
 
 For testing
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/9b814d19475dbdd0cf3aff32e63c2c347efeecf0a6840d56.png)
 ![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework11/7.png)
 
 
