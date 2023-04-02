@@ -49,7 +49,6 @@ Go to a selected path and open the terminal
 
 run “forge init _project-name_”
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/22d07578bcfaf6179079b4fe197ee01a52668a2380d94478.png)
 ![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework11/4.png)
 
 cd myfisrtone
