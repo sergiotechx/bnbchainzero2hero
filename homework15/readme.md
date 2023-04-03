@@ -48,5 +48,6 @@ contract Bad is ERC20, ERC20Burnable, Pausable, Ownable {
 ```
 
 **The test results**
+npx hardhat test
 
 ![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework15/1.PNG?raw=true)
