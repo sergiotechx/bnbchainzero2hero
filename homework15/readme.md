@@ -48,4 +48,5 @@ contract Bad is ERC20, ERC20Burnable, Pausable, Ownable {
 ```
 
 **The test results**
+
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/1a303bad004668c2fee30c166a2ff110d719a726162e3103.PNG)
