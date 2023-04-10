@@ -9,7 +9,6 @@ Swap, make a call to the factory function to get the address of the
 factory contract, check this by reading the same function on  
 Bscscan.
 
-![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework16/factory.PNG?raw=true)
 
 5\. Write some unit tests, as if you were testing the various contracts.  
 Your tests should include
