@@ -8,6 +8,21 @@
 Swap, make a call to the factory function to get the address of the  
 factory contract, check this by reading the same function on  
 Bscscan.
+```
+const { ethers } = require("hardhat");
+const contractAbi = require('../utils/PancakeRouter.json');
+
+async function main() {
+  const contractAddress = "0x10ED43C718714eb63d5aA57B78B54704E256024E";
+  const contract = await ethers.getContractAt(contractAbi, contractAddress);
+  const result = await contract.factory();
+  console.log(result);
+}
+
+main();
+```
+npx hardhat run .\scripts\factoryAddress.js
+0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73
 
 
 5\. Write some unit tests, as if you were testing the various contracts.  
