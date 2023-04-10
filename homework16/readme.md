@@ -4,6 +4,15 @@
 1\. Set up an account on [Quick Node](https://www.quicknode.com/) so that you have access to an archive node.  
 2\. Create a local fork of mainnet.  
 3\. Check that the block height and the chain ID is what you expect.  
+```
+Block height:
+curl --data '{"method":"eth_blockNumber","params":[],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST localhost:8545
+{"jsonrpc":"2.0","id":1,"result":"0x19f8238"} = 27230776
+Chain Id:
+curl --data '{"method":"eth_chainId","params":[],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST localhost:8545
+{"jsonrpc":"2.0","id":1,"result":"0x38"} = 56
+
+```
 4\. Connect to your local fork and use the contract details for Pancake  
 Swap, make a call to the factory function to get the address of the  
 factory contract, check this by reading the same function on  
