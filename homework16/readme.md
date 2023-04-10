@@ -32,7 +32,7 @@ main();
 ```
 npx hardhat run .\scripts\factoryAddress.js
 
-0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73
+The factory contract is:  0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73
 
 
 5\. Write some unit tests, as if you were testing the various contracts.  
