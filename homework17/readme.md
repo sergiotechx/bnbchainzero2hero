@@ -57,4 +57,4 @@ Use the hardhat plugin to deploy the upgraded contract.
 
 After upgrade the contract via hardhat
 
-![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework15/1.PNG?raw=true)
+![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework17/Capture.PNG)
