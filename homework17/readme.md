@@ -54,3 +54,7 @@ Use the hardhat plugin to deploy the contract
 For the next version, change the processPayment function to update the  
 payout block to be the current block.  
 Use the hardhat plugin to deploy the upgraded contract.
+
+After upgrade the contract via hardhat
+
+![](https://github.com/sergiotechx/bnbchainzero2hero/blob/main/homework15/1.PNG?raw=true)
